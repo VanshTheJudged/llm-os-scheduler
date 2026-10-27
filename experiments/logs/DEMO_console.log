@@ -1,0 +1,17 @@
+[1] generating workload: mix=mixed n=2000 load=0.9 seed=42
+    mean output 288 tokens, service CV 1.37, short/medium/long = 49%/37%/14%
+[2] running FCFS
+[3] running predictive SJF (heuristic predictor) on the same workload
+[4] comparison (simulated; lower is better except throughput)
+    metric                     FCFS        SJF  reduction
+    mean JCT (s)             56.368     29.391      47.9%
+    median JCT (s)           46.821     14.791      68.4%
+    P95 JCT (s)             149.785    102.035      31.9%
+    P99 JCT (s)             197.369    255.901     -29.7%
+    mean TTFT (s)            49.195     22.218      54.8%
+    mean wait (s)            49.133     22.156      54.9%
+    max wait (s)            217.625    655.377    -201.1%
+    throughput (req/s)        0.121      0.121      -0.0%
+    predictor: Spearman 0.882, MAE 123 tokens
+[5] saved results to experiments\results\DEMO_20261028-003120
+[6] plot written to experiments\results\DEMO_20261028-003120\demo_wait_by_category.png

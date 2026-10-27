@@ -1,0 +1,23 @@
+2026-10-28 00:16:12,645 INFO run EXP2B_20261028-001612 (code d4d9a2a9d87c) config experiments\configs\exp2b_overload_horizon.yaml
+2026-10-28 00:16:12,645 INFO 20 workloads x 2 conditions = 40 runs
+2026-10-28 00:16:12,881 INFO [1/20] mix=mixed load=1.1 n=5000 seed=0 done in 0.24s
+2026-10-28 00:16:13,104 INFO [2/20] mix=mixed load=1.1 n=5000 seed=1 done in 0.22s
+2026-10-28 00:16:13,350 INFO [3/20] mix=mixed load=1.1 n=5000 seed=2 done in 0.25s
+2026-10-28 00:16:13,581 INFO [4/20] mix=mixed load=1.1 n=5000 seed=3 done in 0.23s
+2026-10-28 00:16:13,826 INFO [5/20] mix=mixed load=1.1 n=5000 seed=4 done in 0.24s
+2026-10-28 00:16:14,185 INFO [6/20] mix=mixed load=1.1 n=5000 seed=5 done in 0.36s
+2026-10-28 00:16:14,504 INFO [7/20] mix=mixed load=1.1 n=5000 seed=6 done in 0.32s
+2026-10-28 00:16:14,748 INFO [8/20] mix=mixed load=1.1 n=5000 seed=7 done in 0.24s
+2026-10-28 00:16:14,981 INFO [9/20] mix=mixed load=1.1 n=5000 seed=8 done in 0.23s
+2026-10-28 00:16:15,224 INFO [10/20] mix=mixed load=1.1 n=5000 seed=9 done in 0.24s
+2026-10-28 00:16:15,472 INFO [11/20] mix=mixed load=1.3 n=5000 seed=0 done in 0.25s
+2026-10-28 00:16:15,745 INFO [12/20] mix=mixed load=1.3 n=5000 seed=1 done in 0.27s
+2026-10-28 00:16:16,031 INFO [13/20] mix=mixed load=1.3 n=5000 seed=2 done in 0.29s
+2026-10-28 00:16:16,317 INFO [14/20] mix=mixed load=1.3 n=5000 seed=3 done in 0.29s
+2026-10-28 00:16:16,570 INFO [15/20] mix=mixed load=1.3 n=5000 seed=4 done in 0.25s
+2026-10-28 00:16:16,823 INFO [16/20] mix=mixed load=1.3 n=5000 seed=5 done in 0.25s
+2026-10-28 00:16:17,066 INFO [17/20] mix=mixed load=1.3 n=5000 seed=6 done in 0.24s
+2026-10-28 00:16:17,313 INFO [18/20] mix=mixed load=1.3 n=5000 seed=7 done in 0.25s
+2026-10-28 00:16:17,550 INFO [19/20] mix=mixed load=1.3 n=5000 seed=8 done in 0.24s
+2026-10-28 00:16:17,785 INFO [20/20] mix=mixed load=1.3 n=5000 seed=9 done in 0.23s
+2026-10-28 00:16:17,799 INFO finished in 5.2s -> C:\Users\Vansh\Desktop\Vineet Prod\llm-os-scheduler\experiments\results\EXP2B_20261028-001612

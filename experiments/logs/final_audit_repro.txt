@@ -1,0 +1,71 @@
+2026-10-28 00:47:31,240 INFO run EXP2A_repro_20261028-004731 (code ab95c3458656) config experiments\configs\exp2a_fcfs_vs_sjf_load.yaml
+2026-10-28 00:47:31,240 INFO 60 workloads x 3 conditions = 180 runs
+2026-10-28 00:47:31,592 INFO [1/60] mix=mixed load=0.5 n=5000 seed=0 done in 0.35s
+2026-10-28 00:47:31,948 INFO [2/60] mix=mixed load=0.5 n=5000 seed=1 done in 0.36s
+2026-10-28 00:47:32,369 INFO [3/60] mix=mixed load=0.5 n=5000 seed=2 done in 0.42s
+2026-10-28 00:47:32,728 INFO [4/60] mix=mixed load=0.5 n=5000 seed=3 done in 0.36s
+2026-10-28 00:47:33,081 INFO [5/60] mix=mixed load=0.5 n=5000 seed=4 done in 0.35s
+2026-10-28 00:47:33,460 INFO [6/60] mix=mixed load=0.5 n=5000 seed=5 done in 0.38s
+2026-10-28 00:47:33,820 INFO [7/60] mix=mixed load=0.5 n=5000 seed=6 done in 0.36s
+2026-10-28 00:47:34,195 INFO [8/60] mix=mixed load=0.5 n=5000 seed=7 done in 0.37s
+2026-10-28 00:47:34,643 INFO [9/60] mix=mixed load=0.5 n=5000 seed=8 done in 0.45s
+2026-10-28 00:47:35,043 INFO [10/60] mix=mixed load=0.5 n=5000 seed=9 done in 0.40s
+2026-10-28 00:47:35,408 INFO [11/60] mix=mixed load=0.6 n=5000 seed=0 done in 0.36s
+2026-10-28 00:47:35,782 INFO [12/60] mix=mixed load=0.6 n=5000 seed=1 done in 0.37s
+2026-10-28 00:47:36,367 INFO [13/60] mix=mixed load=0.6 n=5000 seed=2 done in 0.58s
+2026-10-28 00:47:36,812 INFO [14/60] mix=mixed load=0.6 n=5000 seed=3 done in 0.45s
+2026-10-28 00:47:37,209 INFO [15/60] mix=mixed load=0.6 n=5000 seed=4 done in 0.40s
+2026-10-28 00:47:37,576 INFO [16/60] mix=mixed load=0.6 n=5000 seed=5 done in 0.37s
+2026-10-28 00:47:37,938 INFO [17/60] mix=mixed load=0.6 n=5000 seed=6 done in 0.36s
+2026-10-28 00:47:38,336 INFO [18/60] mix=mixed load=0.6 n=5000 seed=7 done in 0.40s
+2026-10-28 00:47:38,726 INFO [19/60] mix=mixed load=0.6 n=5000 seed=8 done in 0.39s
+2026-10-28 00:47:39,088 INFO [20/60] mix=mixed load=0.6 n=5000 seed=9 done in 0.36s
+2026-10-28 00:47:39,496 INFO [21/60] mix=mixed load=0.7 n=5000 seed=0 done in 0.41s
+2026-10-28 00:47:39,905 INFO [22/60] mix=mixed load=0.7 n=5000 seed=1 done in 0.41s
+2026-10-28 00:47:40,259 INFO [23/60] mix=mixed load=0.7 n=5000 seed=2 done in 0.35s
+2026-10-28 00:47:40,621 INFO [24/60] mix=mixed load=0.7 n=5000 seed=3 done in 0.36s
+2026-10-28 00:47:40,961 INFO [25/60] mix=mixed load=0.7 n=5000 seed=4 done in 0.34s
+2026-10-28 00:47:41,327 INFO [26/60] mix=mixed load=0.7 n=5000 seed=5 done in 0.37s
+2026-10-28 00:47:41,689 INFO [27/60] mix=mixed load=0.7 n=5000 seed=6 done in 0.36s
+2026-10-28 00:47:42,064 INFO [28/60] mix=mixed load=0.7 n=5000 seed=7 done in 0.37s
+2026-10-28 00:47:42,481 INFO [29/60] mix=mixed load=0.7 n=5000 seed=8 done in 0.42s
+2026-10-28 00:47:42,928 INFO [30/60] mix=mixed load=0.7 n=5000 seed=9 done in 0.45s
+2026-10-28 00:47:43,979 INFO [31/60] mix=mixed load=0.8 n=5000 seed=0 done in 1.05s
+2026-10-28 00:47:44,908 INFO [32/60] mix=mixed load=0.8 n=5000 seed=1 done in 0.93s
+2026-10-28 00:47:45,845 INFO [33/60] mix=mixed load=0.8 n=5000 seed=2 done in 0.94s
+2026-10-28 00:47:46,748 INFO [34/60] mix=mixed load=0.8 n=5000 seed=3 done in 0.90s
+2026-10-28 00:47:47,800 INFO [35/60] mix=mixed load=0.8 n=5000 seed=4 done in 1.05s
+2026-10-28 00:47:48,897 INFO [36/60] mix=mixed load=0.8 n=5000 seed=5 done in 1.10s
+2026-10-28 00:47:49,962 INFO [37/60] mix=mixed load=0.8 n=5000 seed=6 done in 1.07s
+2026-10-28 00:47:50,974 INFO [38/60] mix=mixed load=0.8 n=5000 seed=7 done in 1.01s
+2026-10-28 00:47:51,910 INFO [39/60] mix=mixed load=0.8 n=5000 seed=8 done in 0.94s
+2026-10-28 00:47:53,108 INFO [40/60] mix=mixed load=0.8 n=5000 seed=9 done in 1.20s
+2026-10-28 00:47:53,525 INFO [41/60] mix=mixed load=0.9 n=5000 seed=0 done in 0.42s
+2026-10-28 00:47:54,024 INFO [42/60] mix=mixed load=0.9 n=5000 seed=1 done in 0.50s
+2026-10-28 00:47:54,438 INFO [43/60] mix=mixed load=0.9 n=5000 seed=2 done in 0.41s
+2026-10-28 00:47:54,811 INFO [44/60] mix=mixed load=0.9 n=5000 seed=3 done in 0.37s
+2026-10-28 00:47:55,201 INFO [45/60] mix=mixed load=0.9 n=5000 seed=4 done in 0.39s
+2026-10-28 00:47:55,583 INFO [46/60] mix=mixed load=0.9 n=5000 seed=5 done in 0.38s
+2026-10-28 00:47:55,986 INFO [47/60] mix=mixed load=0.9 n=5000 seed=6 done in 0.40s
+2026-10-28 00:47:56,349 INFO [48/60] mix=mixed load=0.9 n=5000 seed=7 done in 0.36s
+2026-10-28 00:47:56,733 INFO [49/60] mix=mixed load=0.9 n=5000 seed=8 done in 0.38s
+2026-10-28 00:47:57,110 INFO [50/60] mix=mixed load=0.9 n=5000 seed=9 done in 0.38s
+2026-10-28 00:47:57,507 INFO [51/60] mix=mixed load=0.95 n=5000 seed=0 done in 0.40s
+2026-10-28 00:47:57,909 INFO [52/60] mix=mixed load=0.95 n=5000 seed=1 done in 0.40s
+2026-10-28 00:47:58,268 INFO [53/60] mix=mixed load=0.95 n=5000 seed=2 done in 0.36s
+2026-10-28 00:47:58,641 INFO [54/60] mix=mixed load=0.95 n=5000 seed=3 done in 0.37s
+2026-10-28 00:47:59,009 INFO [55/60] mix=mixed load=0.95 n=5000 seed=4 done in 0.37s
+2026-10-28 00:47:59,366 INFO [56/60] mix=mixed load=0.95 n=5000 seed=5 done in 0.36s
+2026-10-28 00:47:59,749 INFO [57/60] mix=mixed load=0.95 n=5000 seed=6 done in 0.38s
+2026-10-28 00:48:00,188 INFO [58/60] mix=mixed load=0.95 n=5000 seed=7 done in 0.44s
+2026-10-28 00:48:00,578 INFO [59/60] mix=mixed load=0.95 n=5000 seed=8 done in 0.39s
+2026-10-28 00:48:00,945 INFO [60/60] mix=mixed load=0.95 n=5000 seed=9 done in 0.37s
+2026-10-28 00:48:00,986 INFO finished in 29.7s -> C:\Users\Vansh\Desktop\Vineet Prod\llm-os-scheduler\experiments\results\_reproduction\EXP2A_repro_20261028-004731
+{
+  "original": "EXP2A_20261028-001549",
+  "reproduction": "experiments\\results\\_reproduction\\EXP2A_repro_20261028-004731",
+  "summary_rows": 180,
+  "summary_identical_excluding_wall_clock": true,
+  "request_files_compared": 30,
+  "request_files_mismatched": []
+}

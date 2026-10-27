@@ -1,0 +1,23 @@
+2026-10-28 00:19:13,586 INFO run EXP7_20261028-001913 (code d4d9a2a9d87c) config experiments\configs\exp7_aging_extension.yaml
+2026-10-28 00:19:13,586 INFO 20 workloads x 12 conditions = 240 runs
+2026-10-28 00:19:14,712 INFO [1/20] mix=mixed load=0.9 n=5000 seed=0 done in 1.13s
+2026-10-28 00:19:15,906 INFO [2/20] mix=mixed load=0.9 n=5000 seed=1 done in 1.19s
+2026-10-28 00:19:16,921 INFO [3/20] mix=mixed load=0.9 n=5000 seed=2 done in 1.01s
+2026-10-28 00:19:17,954 INFO [4/20] mix=mixed load=0.9 n=5000 seed=3 done in 1.03s
+2026-10-28 00:19:19,126 INFO [5/20] mix=mixed load=0.9 n=5000 seed=4 done in 1.17s
+2026-10-28 00:19:20,065 INFO [6/20] mix=mixed load=0.9 n=5000 seed=5 done in 0.94s
+2026-10-28 00:19:21,025 INFO [7/20] mix=mixed load=0.9 n=5000 seed=6 done in 0.96s
+2026-10-28 00:19:21,984 INFO [8/20] mix=mixed load=0.9 n=5000 seed=7 done in 0.96s
+2026-10-28 00:19:22,960 INFO [9/20] mix=mixed load=0.9 n=5000 seed=8 done in 0.98s
+2026-10-28 00:19:23,869 INFO [10/20] mix=mixed load=0.9 n=5000 seed=9 done in 0.91s
+2026-10-28 00:19:25,132 INFO [11/20] mix=long_heavy load=0.9 n=5000 seed=0 done in 1.26s
+2026-10-28 00:19:26,159 INFO [12/20] mix=long_heavy load=0.9 n=5000 seed=1 done in 1.03s
+2026-10-28 00:19:27,329 INFO [13/20] mix=long_heavy load=0.9 n=5000 seed=2 done in 1.17s
+2026-10-28 00:19:28,280 INFO [14/20] mix=long_heavy load=0.9 n=5000 seed=3 done in 0.95s
+2026-10-28 00:19:29,277 INFO [15/20] mix=long_heavy load=0.9 n=5000 seed=4 done in 1.00s
+2026-10-28 00:19:30,269 INFO [16/20] mix=long_heavy load=0.9 n=5000 seed=5 done in 0.99s
+2026-10-28 00:19:31,279 INFO [17/20] mix=long_heavy load=0.9 n=5000 seed=6 done in 1.01s
+2026-10-28 00:19:32,218 INFO [18/20] mix=long_heavy load=0.9 n=5000 seed=7 done in 0.94s
+2026-10-28 00:19:33,234 INFO [19/20] mix=long_heavy load=0.9 n=5000 seed=8 done in 1.02s
+2026-10-28 00:19:34,170 INFO [20/20] mix=long_heavy load=0.9 n=5000 seed=9 done in 0.94s
+2026-10-28 00:19:34,219 INFO finished in 20.6s -> C:\Users\Vansh\Desktop\Vineet Prod\llm-os-scheduler\experiments\results\EXP7_20261028-001913

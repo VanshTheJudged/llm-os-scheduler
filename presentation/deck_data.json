@@ -1,0 +1,352 @@
+{
+  "sources": {
+    "EXP1": "EXP1_20261028-001156",
+    "EXP2A": "EXP2A_20261028-001549",
+    "EXP2B": "EXP2B_20261028-001612",
+    "EXP3": "EXP3_20261028-001619",
+    "EXP4": "EXP4_20261028-001639",
+    "EXP5": "EXP5_20261028-001705",
+    "EXP6": "EXP6_20261028-001732",
+    "EXP7": "EXP7_20261028-001913"
+  },
+  "exp1": {
+    "mean_abs_err_pct": 2.2,
+    "n_cells": 27,
+    "lindley_max_diff_s": 1.2688730066656715e-09,
+    "pk_fresh_err_range": [
+      -0.7,
+      -0.1
+    ],
+    "pytest": "59 passed in 7.59s",
+    "deterministic": true,
+    "hand_match": true
+  },
+  "exp2a": {
+    "loads": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "mean_jct": {
+      "FCFS": [
+        17.4,
+        22.5,
+        30.5,
+        46.8,
+        92.4,
+        160.4
+      ],
+      "SJF-heuristic": [
+        14.3,
+        16.8,
+        20.3,
+        25.9,
+        38.8,
+        55.8
+      ],
+      "SJF-oracle": [
+        13.9,
+        16.0,
+        18.8,
+        23.0,
+        31.3,
+        40.5
+      ]
+    },
+    "reduction_heur": [
+      17.6,
+      24.9,
+      33.5,
+      44.6,
+      57.7,
+      64.9
+    ],
+    "at08": {
+      "jct_mean": {
+        "fcfs": 46.8,
+        "heur": 25.9,
+        "heur_rel": 44.6,
+        "heur_lo": 43.0,
+        "heur_hi": 46.1,
+        "oracle_rel": 50.6,
+        "better": 10
+      },
+      "jct_p95": {
+        "fcfs": 151.1,
+        "heur": 88.5,
+        "heur_rel": 40.6,
+        "heur_lo": 34.6,
+        "heur_hi": 46.6,
+        "oracle_rel": 49.5,
+        "better": 10
+      },
+      "jct_p99": {
+        "fcfs": 223.6,
+        "heur": 226.6,
+        "heur_rel": -3.0,
+        "heur_lo": -17.1,
+        "heur_hi": 11.1,
+        "oracle_rel": 17.3,
+        "better": 4
+      },
+      "ttft_mean": {
+        "fcfs": 39.8,
+        "heur": 18.8,
+        "heur_rel": 52.5,
+        "heur_lo": 51.2,
+        "heur_hi": 53.8,
+        "oracle_rel": 59.6,
+        "better": 10
+      },
+      "wait_max": {
+        "fcfs": 280.3,
+        "heur": 749.4,
+        "heur_rel": -174.4,
+        "heur_lo": -227.9,
+        "heur_hi": -120.9,
+        "oracle_rel": -330.7,
+        "better": 0
+      },
+      "throughput_tps": {
+        "fcfs": 31.7,
+        "heur": 31.7,
+        "heur_rel": 0.0,
+        "heur_lo": 0.0,
+        "heur_hi": 0.0,
+        "oracle_rel": 0.0,
+        "better": 0
+      },
+      "throughput_rps": {
+        "fcfs": 0.112,
+        "heur": 0.112,
+        "heur_rel": 0.0,
+        "heur_lo": 0.0,
+        "heur_hi": 0.0,
+        "oracle_rel": 0.0,
+        "better": 0
+      }
+    },
+    "p99_heur": {
+      "0.5": 6.2,
+      "0.6": 6.7,
+      "0.7": 8.4,
+      "0.8": -3.0,
+      "0.9": -40.5,
+      "0.95": -92.2
+    }
+  },
+  "exp2b": {
+    "completed_gain": {
+      "1.1": 7.7,
+      "1.3": 22.1
+    },
+    "tokens_change": {
+      "1.1": -0.05,
+      "1.3": -0.16
+    }
+  },
+  "exp3": {
+    "mixes": [
+      "short_heavy",
+      "mixed",
+      "long_heavy"
+    ],
+    "heur": [
+      48.7,
+      44.6,
+      32.2
+    ],
+    "oracle": [
+      54.3,
+      50.6,
+      42.2
+    ],
+    "cv": [
+      1.69,
+      1.39,
+      1.03
+    ]
+  },
+  "exp4": [
+    {
+      "condition": "SJF-oracle",
+      "spearman": 1.0,
+      "reduction": 50.6,
+      "gain_captured": 100.0,
+      "reference": true
+    },
+    {
+      "condition": "SJF-noise0.5",
+      "spearman": 0.94,
+      "reduction": 48.2,
+      "gain_captured": 95.0,
+      "reference": true
+    },
+    {
+      "condition": "SJF-heuristic",
+      "spearman": 0.88,
+      "reduction": 44.6,
+      "gain_captured": 88.0,
+      "reference": false
+    },
+    {
+      "condition": "SJF-noise1.0",
+      "spearman": 0.8,
+      "reduction": 43.2,
+      "gain_captured": 85.0,
+      "reference": true
+    },
+    {
+      "condition": "SJF-noise2.0",
+      "spearman": 0.55,
+      "reduction": 34.3,
+      "gain_captured": 68.0,
+      "reference": true
+    },
+    {
+      "condition": "SJF-noise3.0",
+      "spearman": 0.39,
+      "reduction": 27.7,
+      "gain_captured": 55.0,
+      "reference": true
+    },
+    {
+      "condition": "SJF-max_tokens",
+      "spearman": 0.03,
+      "reduction": 8.6,
+      "gain_captured": 17.0,
+      "reference": false
+    },
+    {
+      "condition": "SJF-random",
+      "spearman": -0.0,
+      "reduction": 0.8,
+      "gain_captured": 1.0,
+      "reference": false
+    },
+    {
+      "condition": "SJF-prompt_length",
+      "spearman": 0.36,
+      "reduction": -9.5,
+      "gain_captured": -19.0,
+      "reference": false
+    }
+  ],
+  "exp4_prompt_len_09": -22.5,
+  "exp5": {
+    "cats": [
+      "short",
+      "medium",
+      "long"
+    ],
+    "wait_mean": {
+      "FCFS": [
+        85.0,
+        85.2,
+        86.3
+      ],
+      "SJF-heuristic": [
+        11.0,
+        25.6,
+        118.4
+      ],
+      "SJF-oracle": [
+        9.7,
+        15.5,
+        95.9
+      ]
+    },
+    "long_max": {
+      "FCFS": 413.0,
+      "SJF-heuristic": 1427.0,
+      "SJF-oracle": 2710.0
+    },
+    "short_slowdown": {
+      "FCFS": 113.3,
+      "SJF-heuristic": 14.3,
+      "SJF-oracle": 13.5
+    },
+    "n_over": {
+      "FCFS": 0.0,
+      "SJF-heuristic": 60.8,
+      "SJF-oracle": 30.4
+    },
+    "n_over_medium_heur": 4.7,
+    "max_ratio_range": [
+      2.7,
+      8.6
+    ],
+    "tail_pred_ge1024": 100.0,
+    "all_pred_ge1024": 5.6
+  },
+  "exp6": {
+    "reduction_range": [
+      42.5,
+      46.6
+    ],
+    "sd_small": 6.3,
+    "sd_large": 0.64,
+    "sched_us": 0.7,
+    "predict_us": 0.5
+  },
+  "exp7": {
+    "labels": [
+      "SJF (a=0)",
+      "a=0.5",
+      "a=1",
+      "a=2",
+      "a=3",
+      "a=5",
+      "a=10",
+      "a=30",
+      "a=100",
+      "FCFS"
+    ],
+    "gain": [
+      57.7,
+      57.4,
+      55.5,
+      48.5,
+      41.2,
+      30.7,
+      18.3,
+      7.0,
+      2.3,
+      0.0
+    ],
+    "max_wait": [
+      1432.0,
+      1266.0,
+      898.0,
+      644.0,
+      562.0,
+      506.0,
+      451.0,
+      430.0,
+      433.0,
+      435.0
+    ],
+    "jct_mean": [
+      38.8,
+      39.1,
+      40.9,
+      47.6,
+      54.5,
+      64.3,
+      75.7,
+      86.0,
+      90.3,
+      92.4
+    ]
+  },
+  "demo": {
+    "run": "DEMO_20261028-003120",
+    "n": 2000,
+    "fcfs_jct": 56.4,
+    "sjf_jct": 29.4,
+    "reduction": 47.9
+  }
+}

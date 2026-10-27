@@ -1,0 +1,23 @@
+{
+  "run_name": "EXP4_20261028-001639",
+  "experiment_id": "EXP4",
+  "command": "python.exe -m llm_scheduler.experiment_runner --config experiments/configs/exp4_predictor_quality.yaml",
+  "config_file": "experiments/configs/exp4_predictor_quality.yaml",
+  "code_hash": "d4d9a2a9d87c",
+  "started_at": "2026-10-28T00:16:39",
+  "python": "3.13.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3"
+  },
+  "simulated": true,
+  "status": "COMPLETED",
+  "n_runs": 280,
+  "finished_at": "2026-10-28T00:17:02",
+  "wall_time_s": 23.098
+}

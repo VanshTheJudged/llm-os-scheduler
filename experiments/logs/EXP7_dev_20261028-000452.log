@@ -1,0 +1,13 @@
+2026-10-28 00:04:52,616 INFO run EXP7_dev_20261028-000452 (code 529c4e7089cc) config experiments\configs\exp7_aging_extension.yaml
+2026-10-28 00:04:52,617 INFO 10 workloads x 11 conditions = 110 runs
+2026-10-28 00:04:53,556 INFO [1/10] mix=mixed load=0.9 n=5000 seed=100 done in 0.94s
+2026-10-28 00:04:54,419 INFO [2/10] mix=mixed load=0.9 n=5000 seed=101 done in 0.86s
+2026-10-28 00:04:55,343 INFO [3/10] mix=mixed load=0.9 n=5000 seed=102 done in 0.92s
+2026-10-28 00:04:56,181 INFO [4/10] mix=mixed load=0.9 n=5000 seed=103 done in 0.84s
+2026-10-28 00:04:57,086 INFO [5/10] mix=mixed load=0.9 n=5000 seed=104 done in 0.90s
+2026-10-28 00:04:57,997 INFO [6/10] mix=long_heavy load=0.9 n=5000 seed=100 done in 0.90s
+2026-10-28 00:04:58,909 INFO [7/10] mix=long_heavy load=0.9 n=5000 seed=101 done in 0.91s
+2026-10-28 00:04:59,806 INFO [8/10] mix=long_heavy load=0.9 n=5000 seed=102 done in 0.90s
+2026-10-28 00:05:00,693 INFO [9/10] mix=long_heavy load=0.9 n=5000 seed=103 done in 0.89s
+2026-10-28 00:05:02,093 INFO [10/10] mix=long_heavy load=0.9 n=5000 seed=104 done in 1.40s
+2026-10-28 00:05:02,178 INFO finished in 9.6s -> C:\Users\Vansh\Desktop\Vineet Prod\llm-os-scheduler\experiments\results\EXP7_dev_20261028-000452

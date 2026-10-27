@@ -1,0 +1,4 @@
+mix,wl_mean_output_tokens,wl_median_output_tokens,wl_cv_service,wl_share_short,wl_share_medium,wl_share_long,wl_mean_service_s
+short_heavy,122.944,45.5,1.691,0.737,0.227,0.036,3.086
+mixed,282.098,131.4,1.386,0.494,0.362,0.144,7.091
+long_heavy,490.324,357.1,1.028,0.25,0.451,0.299,12.292

@@ -1,0 +1,93 @@
+service_model:
+  prefill_base_s: 0.01
+  prefill_per_token_s: 0.0002
+  decode_per_token_s: 0.025
+mixes:
+- mixed
+loads:
+- 0.8
+- 0.9
+n_requests: 5000
+seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+horizon: null
+save_requests: []
+experiment_id: EXP4
+name: Predictor quality (oracle, synthetic noise sweep, heuristic, naive baselines)
+question: How does output-length prediction error affect SJF scheduling performance?
+hypothesis: Mean JCT rises monotonically with synthetic noise sigma. With uninformative
+  predictions (random) SJF's mean JCT matches FCFS (conservation law for size-blind
+  non-preemptive policies). A predictor anti-correlated with length can be worse than
+  FCFS.
+conditions:
+- label: FCFS
+  policy: fcfs
+- label: SJF-oracle
+  policy: sjf
+  predictor:
+    type: oracle
+- label: SJF-noise0.1
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 0.1
+- label: SJF-noise0.25
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 0.25
+- label: SJF-noise0.5
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 0.5
+- label: SJF-noise0.75
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 0.75
+- label: SJF-noise1.0
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 1.0
+- label: SJF-noise1.5
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 1.5
+- label: SJF-noise2.0
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 2.0
+- label: SJF-noise3.0
+  policy: sjf
+  predictor:
+    type: noisy_oracle
+    sigma: 3.0
+- label: SJF-heuristic
+  policy: sjf
+  predictor:
+    type: heuristic
+- label: SJF-max_tokens
+  policy: sjf
+  predictor:
+    type: max_tokens
+- label: SJF-prompt_length
+  policy: sjf
+  predictor:
+    type: prompt_length
+- label: SJF-random
+  policy: sjf
+  predictor:
+    type: random

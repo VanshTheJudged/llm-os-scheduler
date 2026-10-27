@@ -1,0 +1,11 @@
+policy,request_id,arrival,output_tokens,start_sim,start_hand,ttft_sim,ttft_hand,jct_sim,jct_hand,wait_sim,wait_hand,match
+FCFS,0,0.0,5.0,0.0,0.0,1.0,1.0,5.0,5.0,0.0,0.0,True
+FCFS,1,1.0,3.0,5.0,5.0,5.0,5.0,7.0,7.0,4.0,4.0,True
+FCFS,2,2.0,1.0,8.0,8.0,7.0,7.0,7.0,7.0,6.0,6.0,True
+FCFS,3,3.0,2.0,9.0,9.0,7.0,7.0,8.0,8.0,6.0,6.0,True
+FCFS,mean,,,,,5.0,5.0,6.75,6.75,4.0,4.0,
+SJF-oracle,0,0.0,5.0,0.0,0.0,1.0,1.0,5.0,5.0,0.0,0.0,True
+SJF-oracle,1,1.0,3.0,8.0,8.0,8.0,8.0,10.0,10.0,7.0,7.0,True
+SJF-oracle,2,2.0,1.0,5.0,5.0,4.0,4.0,4.0,4.0,3.0,3.0,True
+SJF-oracle,3,3.0,2.0,6.0,6.0,4.0,4.0,5.0,5.0,3.0,3.0,True
+SJF-oracle,mean,,,,,4.25,4.25,6.0,6.0,3.25,3.25,

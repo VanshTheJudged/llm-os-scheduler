@@ -1,0 +1,33 @@
+2026-10-28 00:17:05,144 INFO run EXP5_20261028-001705 (code d4d9a2a9d87c) config experiments\configs\exp5_fairness.yaml
+2026-10-28 00:17:05,144 INFO 30 workloads x 3 conditions = 90 runs
+2026-10-28 00:17:05,918 INFO [1/30] mix=short_heavy load=0.9 n=5000 seed=0 done in 0.77s
+2026-10-28 00:17:06,840 INFO [2/30] mix=short_heavy load=0.9 n=5000 seed=1 done in 0.92s
+2026-10-28 00:17:07,861 INFO [3/30] mix=short_heavy load=0.9 n=5000 seed=2 done in 1.02s
+2026-10-28 00:17:08,917 INFO [4/30] mix=short_heavy load=0.9 n=5000 seed=3 done in 1.06s
+2026-10-28 00:17:10,105 INFO [5/30] mix=short_heavy load=0.9 n=5000 seed=4 done in 1.19s
+2026-10-28 00:17:11,368 INFO [6/30] mix=short_heavy load=0.9 n=5000 seed=5 done in 1.26s
+2026-10-28 00:17:12,420 INFO [7/30] mix=short_heavy load=0.9 n=5000 seed=6 done in 1.05s
+2026-10-28 00:17:13,316 INFO [8/30] mix=short_heavy load=0.9 n=5000 seed=7 done in 0.90s
+2026-10-28 00:17:14,059 INFO [9/30] mix=short_heavy load=0.9 n=5000 seed=8 done in 0.74s
+2026-10-28 00:17:14,768 INFO [10/30] mix=short_heavy load=0.9 n=5000 seed=9 done in 0.71s
+2026-10-28 00:17:15,449 INFO [11/30] mix=mixed load=0.9 n=5000 seed=0 done in 0.68s
+2026-10-28 00:17:16,158 INFO [12/30] mix=mixed load=0.9 n=5000 seed=1 done in 0.71s
+2026-10-28 00:17:17,067 INFO [13/30] mix=mixed load=0.9 n=5000 seed=2 done in 0.91s
+2026-10-28 00:17:17,873 INFO [14/30] mix=mixed load=0.9 n=5000 seed=3 done in 0.81s
+2026-10-28 00:17:18,547 INFO [15/30] mix=mixed load=0.9 n=5000 seed=4 done in 0.67s
+2026-10-28 00:17:19,203 INFO [16/30] mix=mixed load=0.9 n=5000 seed=5 done in 0.66s
+2026-10-28 00:17:19,958 INFO [17/30] mix=mixed load=0.9 n=5000 seed=6 done in 0.75s
+2026-10-28 00:17:20,669 INFO [18/30] mix=mixed load=0.9 n=5000 seed=7 done in 0.71s
+2026-10-28 00:17:21,345 INFO [19/30] mix=mixed load=0.9 n=5000 seed=8 done in 0.68s
+2026-10-28 00:17:22,014 INFO [20/30] mix=mixed load=0.9 n=5000 seed=9 done in 0.67s
+2026-10-28 00:17:22,718 INFO [21/30] mix=long_heavy load=0.9 n=5000 seed=0 done in 0.70s
+2026-10-28 00:17:23,412 INFO [22/30] mix=long_heavy load=0.9 n=5000 seed=1 done in 0.69s
+2026-10-28 00:17:24,118 INFO [23/30] mix=long_heavy load=0.9 n=5000 seed=2 done in 0.71s
+2026-10-28 00:17:24,867 INFO [24/30] mix=long_heavy load=0.9 n=5000 seed=3 done in 0.75s
+2026-10-28 00:17:25,970 INFO [25/30] mix=long_heavy load=0.9 n=5000 seed=4 done in 1.10s
+2026-10-28 00:17:26,853 INFO [26/30] mix=long_heavy load=0.9 n=5000 seed=5 done in 0.88s
+2026-10-28 00:17:27,648 INFO [27/30] mix=long_heavy load=0.9 n=5000 seed=6 done in 0.79s
+2026-10-28 00:17:28,346 INFO [28/30] mix=long_heavy load=0.9 n=5000 seed=7 done in 0.70s
+2026-10-28 00:17:29,118 INFO [29/30] mix=long_heavy load=0.9 n=5000 seed=8 done in 0.77s
+2026-10-28 00:17:29,825 INFO [30/30] mix=long_heavy load=0.9 n=5000 seed=9 done in 0.71s
+2026-10-28 00:17:29,844 INFO finished in 24.7s -> C:\Users\Vansh\Desktop\Vineet Prod\llm-os-scheduler\experiments\results\EXP5_20261028-001705

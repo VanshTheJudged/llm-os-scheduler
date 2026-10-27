@@ -1,0 +1,23 @@
+{
+  "run_name": "EXP7_20261028-001913",
+  "experiment_id": "EXP7",
+  "command": "python.exe -m llm_scheduler.experiment_runner --config experiments/configs/exp7_aging_extension.yaml",
+  "config_file": "experiments/configs/exp7_aging_extension.yaml",
+  "code_hash": "d4d9a2a9d87c",
+  "started_at": "2026-10-28T00:19:13",
+  "python": "3.13.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3"
+  },
+  "simulated": true,
+  "status": "COMPLETED",
+  "n_runs": 240,
+  "finished_at": "2026-10-28T00:19:34",
+  "wall_time_s": 20.632
+}

@@ -1,0 +1,43 @@
+service_model:
+  prefill_base_s: 0.01
+  prefill_per_token_s: 0.0002
+  decode_per_token_s: 0.025
+mixes:
+- mixed
+loads:
+- 0.8
+n_requests:
+- 500
+- 1000
+- 2000
+- 5000
+- 10000
+- 20000
+- 50000
+- 100000
+seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+horizon: null
+save_requests: []
+experiment_id: EXP6
+name: Sensitivity to workload size
+question: Do the FCFS vs SJF findings persist as the number of requests grows?
+hypothesis: The relative mean-JCT reduction of SJF-heuristic is similar across sizes,
+  with smaller seed-to-seed variation for larger workloads. Simulation wall time grows
+  roughly linearly.
+conditions:
+- label: FCFS
+  policy: fcfs
+- label: SJF-heuristic
+  policy: sjf
+  predictor:
+    type: heuristic

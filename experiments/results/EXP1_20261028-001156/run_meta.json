@@ -1,0 +1,16 @@
+{
+  "experiment_id": "EXP1",
+  "run_name": "EXP1_20261028-001156",
+  "code_hash": "529c4e7089cc",
+  "command": "python experiments/scripts/exp1_validate.py",
+  "started_at": "2026-10-28T00:11:56",
+  "python": "3.13.3",
+  "simulated": true,
+  "pytest_returncode": 0,
+  "hand_example_match": true,
+  "deterministic": true,
+  "lindley_max_abs_diff_s": 1.2688730066656717e-09,
+  "analytic_mean_abs_rel_error_pct": 2.166485450005723,
+  "wall_time_s": 231.51,
+  "status": "COMPLETED"
+}

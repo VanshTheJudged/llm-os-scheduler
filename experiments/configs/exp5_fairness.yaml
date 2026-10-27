@@ -1,0 +1,14 @@
+experiment_id: EXP5
+name: Fairness and long-request delay
+question: Does predictive-SJF disproportionately delay long requests?
+hypothesis: >-
+  Under SJF, short requests wait much less than under FCFS while long requests wait longer;
+  the maximum waiting time is higher than under FCFS.
+mixes: [short_heavy, mixed, long_heavy]
+loads: [0.9]
+n_requests: 5000
+conditions:
+  - {label: FCFS, policy: fcfs}
+  - {label: SJF-heuristic, policy: sjf, predictor: {type: heuristic}}
+  - {label: SJF-oracle, policy: sjf, predictor: {type: oracle}}   # REFERENCE ONLY
+save_requests: all

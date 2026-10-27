@@ -1,0 +1,13 @@
+experiment_id: EXP2B
+name: FCFS vs predictive-SJF under overload with a finite horizon
+question: When offered load exceeds capacity, how do completed-request and token throughput differ?
+hypothesis: >-
+  With rho > 1 and the horizon at the last arrival, SJF completes more requests than FCFS
+  within the horizon, while token throughput stays within a few percent (same busy time).
+mixes: [mixed]
+loads: [1.1, 1.3]
+n_requests: 5000
+horizon: last_arrival
+conditions:
+  - {label: FCFS, policy: fcfs}
+  - {label: SJF-heuristic, policy: sjf, predictor: {type: heuristic}}

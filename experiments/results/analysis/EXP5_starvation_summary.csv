@@ -1,0 +1,10 @@
+mix,condition,n_over_mean,n_over_max,n_over_short_mean,n_over_short_max,n_over_medium_mean,n_over_medium_max,n_over_long_mean,n_over_long_max,jain_slowdown_mean,jain_slowdown_max
+short_heavy,FCFS,0.0,0,0.0,0,0.0,0,0.0,0,0.233,0.262
+short_heavy,SJF-heuristic,40.2,58,1.1,3,19.3,32,19.8,26,0.237,0.262
+short_heavy,SJF-oracle,26.7,37,0.0,0,3.0,12,23.7,35,0.215,0.237
+mixed,FCFS,0.0,0,0.0,0,0.0,0,0.0,0,0.165,0.2
+mixed,SJF-heuristic,60.8,102,0.0,0,4.7,11,56.1,91,0.219,0.245
+mixed,SJF-oracle,30.4,50,0.0,0,0.0,0,30.4,50,0.193,0.21
+long_heavy,FCFS,0.0,0,0.0,0,0.0,0,0.0,0,0.109,0.13
+long_heavy,SJF-heuristic,112.2,153,0.0,0,8.5,14,103.7,142,0.215,0.248
+long_heavy,SJF-oracle,43.5,64,0.0,0,0.0,0,43.5,64,0.182,0.21

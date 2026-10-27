@@ -1,0 +1,13 @@
+experiment_id: EXP3
+name: Workload composition (short-heavy, mixed, long-heavy)
+question: Does the benefit of predictive-SJF depend on the request-length distribution?
+hypothesis: >-
+  SJF-heuristic reduces mean JCT on all three mixes. Short requests gain the most, and long
+  requests wait longer than under FCFS.
+mixes: [short_heavy, mixed, long_heavy]
+loads: [0.8, 0.9]
+n_requests: 5000
+conditions:
+  - {label: FCFS, policy: fcfs}
+  - {label: SJF-heuristic, policy: sjf, predictor: {type: heuristic}}
+  - {label: SJF-oracle, policy: sjf, predictor: {type: oracle}}   # REFERENCE ONLY

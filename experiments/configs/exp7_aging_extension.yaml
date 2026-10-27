@@ -1,0 +1,25 @@
+experiment_id: EXP7
+name: "EXTENSION: predictive-SJF with linear aging"
+question: Can linear aging reduce the worst-case waiting of long requests while keeping most of SJF's mean-JCT gain?
+hypothesis: >-
+  Increasing the aging rate moves results continuously from SJF (rate 0) toward FCFS (rate
+  -> infinity); intermediate rates cut maximum and long-request P95 waiting time
+  substantially while giving up only part of SJF's mean-JCT reduction.
+mixes: [mixed, long_heavy]
+loads: [0.9]
+n_requests: 5000
+# Aging-rate grid chosen from development run EXP7_dev_20261028-000452 (seeds 100-104):
+# rates 0.01-0.1 were indistinguishable from plain SJF, so the grid was moved to 0.1-100.
+conditions:
+  - {label: FCFS, policy: fcfs}
+  - {label: SJF-heuristic, policy: sjf, predictor: {type: heuristic}}
+  - {label: Aging-0.1, policy: sjf_aging, aging_rate: 0.1, predictor: {type: heuristic}}
+  - {label: Aging-0.3, policy: sjf_aging, aging_rate: 0.3, predictor: {type: heuristic}}
+  - {label: Aging-0.5, policy: sjf_aging, aging_rate: 0.5, predictor: {type: heuristic}}
+  - {label: Aging-1, policy: sjf_aging, aging_rate: 1.0, predictor: {type: heuristic}}
+  - {label: Aging-2, policy: sjf_aging, aging_rate: 2.0, predictor: {type: heuristic}}
+  - {label: Aging-3, policy: sjf_aging, aging_rate: 3.0, predictor: {type: heuristic}}
+  - {label: Aging-5, policy: sjf_aging, aging_rate: 5.0, predictor: {type: heuristic}}
+  - {label: Aging-10, policy: sjf_aging, aging_rate: 10.0, predictor: {type: heuristic}}
+  - {label: Aging-30, policy: sjf_aging, aging_rate: 30.0, predictor: {type: heuristic}}
+  - {label: Aging-100, policy: sjf_aging, aging_rate: 100.0, predictor: {type: heuristic}}

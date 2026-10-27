@@ -1,0 +1,8 @@
+{
+  "original": "EXP2A_20261028-001549",
+  "reproduction": "experiments\\results\\_reproduction\\EXP2A_repro_20261028-004731",
+  "summary_rows": 180,
+  "summary_identical_excluding_wall_clock": true,
+  "request_files_compared": 30,
+  "request_files_mismatched": []
+}

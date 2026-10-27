@@ -1,0 +1,18 @@
+# Defaults merged under every experiment config (experiment keys override these).
+
+# Service-time model of the single simulated execution slot (seconds).
+# ASSUMED illustrative values, not measurements: decode dominates service time, as in
+# autoregressive generation. Because load is set as a utilisation, multiplying all three
+# constants by c multiplies every time metric by c and leaves policy comparisons unchanged.
+service_model:
+  prefill_base_s: 0.010        # fixed cost per prefill
+  prefill_per_token_s: 0.0002  # per prompt token
+  decode_per_token_s: 0.025    # per output token after the first
+
+# Workload defaults.
+mixes: [mixed]
+loads: [0.8]                   # target utilisation rho of the execution slot
+n_requests: 5000
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]   # evaluation seeds; development used seeds 100-104
+horizon: null                  # null = run until every request completes
+save_requests: []              # list of {mix, load, n_requests} filters, or "all"

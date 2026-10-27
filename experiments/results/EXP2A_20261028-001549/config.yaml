@@ -1,0 +1,47 @@
+service_model:
+  prefill_base_s: 0.01
+  prefill_per_token_s: 0.0002
+  decode_per_token_s: 0.025
+mixes:
+- mixed
+loads:
+- 0.5
+- 0.6
+- 0.7
+- 0.8
+- 0.9
+- 0.95
+n_requests: 5000
+seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+horizon: null
+save_requests:
+- mix: mixed
+  load: 0.8
+experiment_id: EXP2A
+name: FCFS vs predictive-SJF across offered load (mixed workload)
+question: Does ordering by predicted output length reduce mean and tail JCT relative
+  to FCFS?
+hypothesis: SJF-heuristic lowers mean JCT relative to FCFS at every load, and the
+  relative reduction grows with load. Throughput is unchanged because every policy
+  is work-conserving.
+conditions:
+- label: FCFS
+  policy: fcfs
+- label: SJF-heuristic
+  policy: sjf
+  predictor:
+    type: heuristic
+- label: SJF-oracle
+  policy: sjf
+  predictor:
+    type: oracle

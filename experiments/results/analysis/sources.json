@@ -1,0 +1,29 @@
+{
+  "runs": {
+    "EXP1": "EXP1_20261028-001156",
+    "EXP2A": "EXP2A_20261028-001549",
+    "EXP2B": "EXP2B_20261028-001612",
+    "EXP3": "EXP3_20261028-001619",
+    "EXP4": "EXP4_20261028-001639",
+    "EXP5": "EXP5_20261028-001705",
+    "EXP6": "EXP6_20261028-001732",
+    "EXP7": "EXP7_20261028-001913"
+  },
+  "figures": {
+    "fig01_exp1_parity.png": "EXP1_20261028-001156",
+    "fig02_exp2a_mean_jct_vs_load.png": "EXP2A_20261028-001549",
+    "fig03_exp2a_p95_jct_vs_load.png": "EXP2A_20261028-001549",
+    "fig04_exp2a_reduction_vs_load.png": "EXP2A_20261028-001549",
+    "fig05_exp2a_jct_summary_load08.png": "EXP2A_20261028-001549",
+    "fig06_exp2b_throughput.png": "EXP2B_20261028-001612 + EXP2A_20261028-001549",
+    "fig07_exp3_reduction_by_mix.png": "EXP3_20261028-001619",
+    "fig08_exp3_wait_by_category.png": "EXP3_20261028-001619",
+    "fig09_exp4_rank_vs_jct.png": "EXP4_20261028-001639",
+    "fig10_exp4_noise_sweep.png": "EXP4_20261028-001639",
+    "fig11_exp5_wait_ecdf.png": "EXP5_20261028-001705",
+    "fig12_exp5_max_wait.png": "EXP5_20261028-001705",
+    "fig13_exp5_slowdown.png": "EXP5_20261028-001705",
+    "fig14_exp6_size.png": "EXP6_20261028-001732",
+    "fig15_exp7_aging_tradeoff.png": "EXP7_20261028-001913"
+  }
+}
